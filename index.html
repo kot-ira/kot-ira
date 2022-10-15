@@ -9,7 +9,7 @@
         text-align:center;
       }
      </style>
-     <script src="myscript.js"></script>
+     <script src="dialog.js"></script>
      <link rel="stylesheet" href="./button.css">
   </head>
   <body style="background: rgb(34,99,195);
@@ -18,5 +18,11 @@
     <h2 style="text-align:center;color:black;font-family: cursive;font-size: 23px;">Історичний журнал Україна 1187</h2>
     <h3 style="text-align:left;color:black;font-family:'Times New Roman', Times, serif;font-size:small;">Говорити про війну в Україні — важлива місія для кожного з нас. Особливо необхідно розповідати про неї іноземцям, адже на інформаційному фронті агресор теж активно воює фейками та пропагандою. Не слід забувати про історію, що допоможе нам та іноземним читачам зрозуміти, що повномаштабна війна розпочата 24 лютого 2022 року російською федерацією задля анексії території України, триває не декілька місяців, а її хронологічний відрізок сягає до початку минулих століть. Знання історії - це наш великий спільний внесок у перемогу.</h3>
   <button>TEST</button>
+  <button onclick="showThisDialog()">Show this Dialog</button>
+
+<dialog id="this-dialog">
+  <p> I am a dialog-box with backdrop</p>
+  <button onclick="hideThisDialog()">Close Me! </button>
+<dialog>
   </body>
 </html>
